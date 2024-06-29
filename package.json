@@ -1,0 +1,24 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "Epoca Server is a program dedicated to interacting with the production server running the platform.",
+	"main": "start.js",
+	"scripts": {
+		"start": "node start.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@bitbucket.org/projectplutus/server.git"
+	},
+	"author": "JessDotJS",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://bitbucket.org/projectplutus/server/issues"
+	},
+	"homepage": "https://bitbucket.org/projectplutus/server#readme",
+	"dependencies": {
+		"inquirer": "9.1.4"
+	},
+	"type": "module"
+}
